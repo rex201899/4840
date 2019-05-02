@@ -1,0 +1,14 @@
+void clearUpperScreen() 
+{
+  for (int col = 0 ; col < 64 ; col++) {
+    for (int row = 0 ; row < 21 ; row++ ) {
+      fbputchar(' ', row, col);
+    }
+  }
+}
+
+    if (lineNum = 20) {  
+	clearUpperScreen();
+	lineNum = 0
+}
+
